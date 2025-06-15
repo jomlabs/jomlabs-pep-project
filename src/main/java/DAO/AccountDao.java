@@ -65,7 +65,7 @@ public class AccountDao {
         return null;
     }
 
-
+//get account by id
     public Account getAccountById(int id) {
     Connection connection = ConnectionUtil.getConnection();
     String sql = "SELECT * FROM Account WHERE account_id = ?";
